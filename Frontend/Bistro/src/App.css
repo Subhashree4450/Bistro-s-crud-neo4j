@@ -1,0 +1,72 @@
+/* styles.css - Mild Midnight Blueberry Theme */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #202040; /* Muted deep blue */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* Main Container */
+#root {
+  width: 80%;
+  max-width: 900px;
+  text-align: center;
+  background: #2c2c54; /* Soft navy */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Header */
+h1 {
+  color: #ffffff; /* Soft lavender white */
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.1);
+  font-size: 2rem; /* Reduced from 2.5rem */
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #3d3d6b; /* Dusky blue */
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* Soft lavender */
+  font-size: 16px; /* Reduced from 18px */
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #3d3d6b; /* Dusky blue */
+  transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  background-color: #a29bfe; /* Pastel periwinkle */
+  color: #202040; /* Dark blue contrast */
+}
+
+/* Page Content */
+.content {
+  padding: 15px;
+  color: #e0d7ff; /* Soft misty lavender */
+  font-size: 1rem; /* Reduced from 1.2rem */
+}

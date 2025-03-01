@@ -1,0 +1,158 @@
+/* Buys.css - Midnight Blueberry Theme */
+.buys-container {
+    background: #2a2d55; /* Dark Blueberry */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h2, h3 {
+    color: #e0e0ff; /* Moonlight Silver */
+}
+
+/* 🟢 Form Styling */
+.buys-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Smaller gap for compact look */
+    margin-bottom: 10px;
+}
+
+/* 🟢 Smaller Input Fields */
+.buys-form input,
+.buys-form select {
+    flex: 1;
+    min-width: 120px; /* Reduced width */
+    padding: 8px;
+    border: 1px solid #574b90; /* Royal Blueberry */
+    border-radius: 6px;
+    font-size: 13px;
+    background-color: #1b1e3f; /* Midnight Blue */
+    color: #e0e0ff; /* Moonlight Silver */
+}
+
+/* 🟢 Focus Effect */
+.buys-form input:focus,
+.buys-form select:focus {
+    outline: none;
+    border-color: #8661c1; /* Soft Lavender Blue */
+    box-shadow: 0px 0px 5px rgba(134, 97, 193, 0.5);
+}
+
+/* 🟢 Keep "Buy Cake" Button Below */
+.buys-form button {
+    display: block;
+    margin: 10px auto 0;
+    width: 150px; /* Centered and separate */
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #574b90;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buys-form button:hover {
+    background-color: #8661c1;
+}
+
+/* 🟢 Buys List Styling */
+.buys-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.buys-list li {
+    background: #1b1e3f; /* Midnight Blue */
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: #e0e0ff; /* Moonlight Silver */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* 🟢 Button Group - Aligns Buttons to the Right */
+.button-group {
+    display: flex;
+    gap: 6px; /* Keeps buttons close together */
+}
+
+/* 🟢 Buttons in List */
+.buys-list button {
+    margin: 0;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    background-color: #574b90;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buys-list button:hover {
+    background-color: #8661c1;
+}
+
+/* 🟢 Modal for Changing Cake */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #2a2d55;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+.modal-content h3 {
+    color: #e0e0ff;
+    margin-bottom: 10px;
+}
+
+.modal-content select {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #8661c1;
+    border-radius: 8px;
+    background-color: #1b1e3f;
+    color: #e0e0ff;
+}
+
+.modal-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-buttons button {
+    padding: 6px 12px;
+    font-size: 14px;
+}

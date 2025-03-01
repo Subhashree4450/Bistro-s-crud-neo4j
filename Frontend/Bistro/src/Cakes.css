@@ -1,0 +1,129 @@
+/* cakes.css - Midnight Blueberry Theme */
+
+.cakes-container {
+    background: #2a2d55; /* Dark Blueberry */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 900px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #e0e0ff; /* Moonlight Silver */
+    font-size: 1.8rem;
+}
+
+/* ✅ Form Styling - Inputs in a Single Row */
+.cakes-form {
+    display: flex;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    justify-content: center;
+    align-items: center;
+    gap: 8px; /* Space between inputs */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* ✅ Small & Stylish Input Fields */
+.form-group input {
+    flex: 1; /* Inputs take equal space */
+    min-width: 120px; /* Prevents excessive shrinking */
+    padding: 8px;
+    border: 1px solid #574b90; /* Royal Blueberry */
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #1b1e3f; /* Midnight Blue */
+    color: #e0e0ff; /* Moonlight Silver */
+    text-align: center;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #8661c1; /* Soft Lavender Blue */
+    box-shadow: 0px 0px 5px rgba(134, 97, 193, 0.5);
+}
+
+/* ✅ "Add Cake" Button */
+.add-button {
+    margin-top: 10px;
+    background-color: #574b90; /* Royal Blueberry */
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.add-button:hover {
+    background-color: #8661c1; /* Soft Lavender Blue */
+}
+
+/* 🟣 Cakes Grid */
+.cakes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* 🟣 Cake Card */
+.cake-card {
+    background: #1b1e3f; /* Midnight Blue */
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    color: #e0e0ff; /* Moonlight Silver */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cake-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.cake-card h4 {
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #8661c1; /* Soft Lavender Blue */
+}
+
+.cake-card p {
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+/* 🟢 Card Buttons */
+.card-buttons {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.card-buttons button {
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #574b90; /* Royal Blueberry */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-buttons button:hover {
+    background-color: #8661c1; /* Soft Lavender Blue */
+}
